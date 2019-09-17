@@ -1,8 +1,9 @@
 
 package qacademico;
 
+   public class Estudante extends Pessoa{
+       
 
-public class Estudante {
     
    private String curso; 
 
@@ -13,7 +14,5 @@ public class Estudante {
     public void setCurso(String c) {
         this.curso = c;
     }
-   
-   
-}
-
+ 
+   }

@@ -1,7 +1,7 @@
 package qacademico;
 
 
-public class Professor {
+public class Professor extends Pessoa{
     
     private String cursos;
     private Double salario;
@@ -22,5 +22,8 @@ public class Professor {
         this.salario = s;
     }
     
-    
+       public class Estudante extends Pessoa{
+}
+
+
 }
